@@ -2,38 +2,64 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Piezo-resistive strain gauge has",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "non-linear resistance characteristic",
+        "b": "has no relation with strain",
+        "c": "linear resistance characteristic",
+		"d": "All of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "While mounting the strain gauge",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "strain gauge backing is responsible for the accuracy of measurement",
+        "b": "adhesive is responsible for the accuracy of measurement",
+        "c": "both are responsible for the accuracy of measurement",
+		"d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
+    },
+    {
+      "question": "The characteristics of strain gauge is defined by",
+      "answers": {
+        "a": "Poisson’s ratio",
+        "b": "Gauge factor",
+        "c": "Young’s modulus",
+		"d": "All of these"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Strain gauge cannot be used to measure",
+      "answers": {
+        "a": "Force",
+        "b": "Flow",
+        "c": "Torque",
+		"d": "Level"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The strain gauges that don’t need any bonding material",
+      "answers": {
+        "a": "semiconductor strain gauges",
+        "b": "thin film strain gauges",
+        "c": "diffused semiconductor strain gauges",
+		"d": "None of these"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }   
   ]
 }
