@@ -44,7 +44,7 @@ The characteristics of the strain gauges are described in terms of its sensitivi
 where,
 **&Delta;R** - the change in resistance caused by strain,
 **RG** - is the resistance of the unreformed gauge, and
-**&epsilon;** – is strain.
+**&epsilon;** - is strain.
 
 ### **Effect of Temperature:**
 The resistive type strain gauges are sensitive to temperature variation; therefore it becomes necessary to account for variations in strain gauge resistance due to temperature changes. Using dummy gauge in opposite arm of the active gauge compensates the temperature variation.
