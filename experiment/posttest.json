@@ -28,9 +28,9 @@
     {
       "question": "The characteristics of strain gauge is defined by",
       "answers": {
-        "a": "Poisson’s ratio",
+        "a": "Poissonâ€™s ratio",
         "b": "Gauge factor",
-        "c": "Young’s modulus",
+        "c": "Youngâ€™s modulus",
 		"d": "All of these"
       },
      
@@ -50,7 +50,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The strain gauges that don’t need any bonding material",
+      "question": "The strain gauges that don't need any bonding material",
       "answers": {
         "a": "semiconductor strain gauges",
         "b": "thin film strain gauges",
