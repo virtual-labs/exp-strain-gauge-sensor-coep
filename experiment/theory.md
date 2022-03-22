@@ -44,7 +44,7 @@ The characteristics of the strain gauges are described in terms of its sensitivi
 where,
 **&Delta;R** - the change in resistance caused by strain,
 **RG** - is the resistance of the unreformed gauge, and
-**&epsilon;** – is strain.
+**&epsilon;** - is strain.
 
 ### **Effect of Temperature:**
 The resistive type strain gauges are sensitive to temperature variation; therefore it becomes necessary to account for variations in strain gauge resistance due to temperature changes. Using dummy gauge in opposite arm of the active gauge compensates the temperature variation.
@@ -53,8 +53,10 @@ The resistive type strain gauges are sensitive to temperature variation; therefo
 In certain applications where equal and opposite strains are known to exist it is possible to attach similar gauges in way that one gauge experiences positive strain and other negative strain. Depending on the number of gauges used the bridge, the circuit configurations are :
 ### 1. Quarter Bridge :
 <center><img src="images/img1.jpg"title=""/></center>
+
 ### 2. Half Bridge :
 <center><img src="images/img2.jpg"title=""/></center>
+
 ### 3. Full Bridge :
 <center><img src="images/img3.jpg"title=""/></center>
 
