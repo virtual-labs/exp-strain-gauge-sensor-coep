@@ -53,8 +53,10 @@ The resistive type strain gauges are sensitive to temperature variation; therefo
 In certain applications where equal and opposite strains are known to exist it is possible to attach similar gauges in way that one gauge experiences positive strain and other negative strain. Depending on the number of gauges used the bridge, the circuit configurations are :
 ### 1. Quarter Bridge :
 <center><img src="images/img1.jpg"title=""/></center>
+
 ### 2. Half Bridge :
 <center><img src="images/img2.jpg"title=""/></center>
+
 ### 3. Full Bridge :
 <center><img src="images/img3.jpg"title=""/></center>
 
