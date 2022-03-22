@@ -1,0 +1,478 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'COEP',
+        'phase': 'Testing',
+        'expName': 'CHARACTERIZE THE STRAIN GAUGE SENSOR',
+        'expShortName': 'strain-gauge-sensor'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="strain-gauge-sensor">
+    	<meta name="developer-institute" content="COEP">
+    	<meta name="learning-unit" content="CHARACTERIZE THE STRAIN GAUGE SENSOR">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h3 id="characterize-the-strain-gauge-sensor">Characterize the Strain gauge sensor</h3>
+          
+            </div>
+              <h3 id="prerequisite"><strong>Prerequisite</strong></h3>
+          <h3 id="what-do-we-mean-by-stress"><strong>What do we mean by Stress?</strong></h3>
+          <p>Stress is the force generated inside an object in response to an applied external force.This internal force divided by the cross-sectional area of the object is called stress,which is expressed in Pa (Pascal) or N/m2.If the direction of the external force is vertical to the cross-sectional area, the stress is called <strong>vertical stress</strong>.</p>
+          <h3 id="what-do-we-mean-by-strain"><strong>What do we mean by strain?</strong></h3>
+          <p>When a bar is pulled, it causes change in its length by ΔL, making its new length = L (original length) + ΔL (change in length).
+          The ratio of this change in length ΔL, to the original length, L, is called strain.
+          The strain is expressed in ε (epsilon): ε = ΔL / L
+          Strain in the same direction as the external force is called longitudinal strain.
+          Since strain is a ratio, it is an absolute number having no unit.
+          Strain in the direction perpendicular to the external force is called lateral strain.
+          Each material has a certain ratio of lateral strain to longitudinal strain.This ratio is called Poisson's ratio.</p>
+          <h3 id="v----dtrans-daxial"><strong>V = - (dε(trans)/ dε(axial))</strong></h3>
+          <p>where
+          V is the resulting <strong>Poisson's ratio</strong>,
+          <strong>ε(trans)</strong> is transverse strain (negative for axial tension (stretching), positive for axial compression)
+          <strong>ε(axial)</strong> is axial strain (positive for axial tension, negative for axial compression).
+          The value of stress is directly proportional to the strain. Thus we can find the stress in a material if we can find the strain initiated by external force.</p>
+          <h3 id="introduction-to-strain-gauge"><strong>Introduction to Strain Gauge</strong></h3>
+          <p>Strain gauge transducer transforms mechanical elongation and compression into measurable value.</p>
+          <h3 id="types-of-strain-gauges-based-on-principle-of-working"><strong>Types of Strain Gauges based on principle of working:</strong></h3>
+          <ol>
+          <li><p><strong>Mechanical:</strong> It is made up of two separate plastic layers. The bottom layer has a ruled scale on it and the top layer has a red arrow or pointer. One layer is glued to one side of the crack and one layer to the other. As the crack opens,the layers slide very slowly past one another and the pointer moves over the scale.The red crosshairs move on the scale as the crack widens. Some mechanical strain gauges are even more crude than this. The piece of plastic or glass is stick across a crack and observed its nature.</p>
+          </li>
+          <li><p><strong>Electrical:</strong> The most common electrical strain gauges are thin, rectangular-shaped strips of foil with maze-like wiring patterns on them leading to a couple of electrical cables.
+          When the material is strained, the foil strip is very slightly bent out of shape and the maze-like wires are either pulled apart (so their wires are stretched slightly thinner) or pushed together (so the wires are pushed together and become slightly thicker). Changing the width of a metal wire changes its electrical resistance. This change in resistance is proportional to the stress applied. If the forces involved are small, the deformation is elastic and the strain gauge eventually returns to its original shape.</p>
+          </li>
+          <li><p><strong>Piezoelectric:</strong> Some materials such as quartz crystals and various types of ceramics, are effectively "natural" strain gauges.
+          When pushed and pulled, they generate tiny electrical voltages between their opposite faces.
+          This phenomenon is called piezoelectricity.
+          By measuring the voltage from a piezoelectric sensor we can easily calculate the strain.
+          Piezoelectric strain gauges are the most sensitive and reliable devices.</p>
+          </li>
+          </ol>
+          <p><strong>Electrical Strain Gauge:</strong> A strain gauge takes advantage of the physical property of electrical conductance. It does not depend on merely the electrical conductivity of a conductor, but also the conductor's geometry. When an electrical conductor is stretched within the limits of its elasticity such that it does not break or permanently deform, it will become narrower and longer. Similarly, when it is compressed, it will broaden and shorten. The change in the resistance is due to variation in the length and cross sectional area of gauge wire.</p>
+          <h3 id="gauge-factor"><strong>Gauge Factor:</strong></h3>
+          <p>The characteristics of the strain gauges are described in terms of its sensitivity (gauge factor). Gauge factor is defined as unit change in resistance for per unit change in length of strain gauge wire given as</p>
+          <p><strong>G.F. = (ΔR/RG) / ε</strong>
+          where,
+          <strong>ΔR</strong> - the change in resistance caused by strain,
+          <strong>RG</strong> - is the resistance of the unreformed gauge, and
+          <strong>ε</strong> - is strain.</p>
+          <h3 id="effect-of-temperature"><strong>Effect of Temperature:</strong></h3>
+          <p>The resistive type strain gauges are sensitive to temperature variation; therefore it becomes necessary to account for variations in strain gauge resistance due to temperature changes. Using dummy gauge in opposite arm of the active gauge compensates the temperature variation.</p>
+          <h3 id="arrangement"><strong>Arrangement:</strong></h3>
+          <p>In certain applications where equal and opposite strains are known to exist it is possible to attach similar gauges in way that one gauge experiences positive strain and other negative strain. Depending on the number of gauges used the bridge, the circuit configurations are :</p>
+          <h3 id="1-quarter-bridge-">1. Quarter Bridge :</h3>
+          <center><img src="images/img1.jpg" title=""></center>
+          
+          <h3 id="2-half-bridge-">2. Half Bridge :</h3>
+          <center><img src="images/img2.jpg" title=""></center>
+          
+          <h3 id="3-full-bridge-">3. Full Bridge :</h3>
+          <center><img src="images/img3.jpg" title=""></center>
+          
+          <p>In Quarter Bridge, the strain gauge is connected in one arm as shown in the above diagram. In half bridge arrangement two active gauges are used, while in case of full bridge all the gauges are active. In this arrangement two acts in tension while other two are compression. With the help of this type of arrangement temperature compensation is also achieved. When possible, the full-bridge configuration is the best to use. This is true not only because it is more sensitive than the others, but because it is linear while the others are not. Quarter-bridge and half-bridge circuits provide an output (imbalance) signal that is only approximately proportional to applied strain gauge force. Linearity, or proportionality, of these bridge circuits is best when the amount of resistance change due to applied force is very small compared to the nominal resistance of the gauge(s). With a full-bridge, however, the output voltage is directly proportional to applied force, with no approximation.</p>
+          <h3 id="effect-of-lead-wire"><strong>Effect of Lead-Wire:</strong></h3>
+          <p>Strain gauges are sometimes mounted at a distance from the measuring equipment. This increases the possibility of errors due to temperature variations, lead desensitization, and lead-wire resistance changes.</p>
+          <h3 id="two-wire">Two wire:</h3>
+          <p>In a <strong>two-wire installation</strong>, as shown in figure, the two leads are in series with the strain-gauge element, and any change in the lead-wire resistance (R1) will be indistinguishable from changes in the resistance of the strain gage (Rg). In two-wire installations, the error introduced by lead-wire resistance is a function of the resistance ratio R1/Rg. The lead error is usually not significant if the lead-wire resistance (R1) is small in comparison to the gage resistance (Rg), but if the lead-wire resistance exceeds 0.1% of the nominal gage resistance, this source of error becomes significant. Therefore, in industrial applications, lead-wire lengths should be minimized or eliminated by locating the transmitter directly at the sensor.</p>
+          <center><img src="images/img4.jpg" title=""></center>
+          
+          <h3 id="three-wire"><strong>Three wire:</strong></h3>
+          <p>To correct for lead-wire effects, an additional, third lead can be introduced to the top arm of the bridge, <strong>as shown in the above Figure</strong>. In this configuration, wire C acts as a sense lead with no current flowing in it, and wires A and B are in opposite legs of the bridge. This is the minimum acceptable method of wiring strain gages to a bridge to cancel at least part of the effect of extension wire errors. Theoretically, if the lead wires to the sensor have the same nominal resistance, the same temperature coefficient, and are maintained at the same temperature, full compensation is obtained. In reality, wires are manufactured to a tolerance of about 10%, and three-wire installation does not completely eliminate two-wire errors, but it does reduce them by an order of magnitude.
+          If further improvement is desired, four-wire and offset-compensated installations should be considered.</p>
+          <h3 id="types-of-strain-gauge-based-on-construction"><strong>Types of strain gauge based on construction:</strong></h3>
+          <p><strong>Optical sensors</strong> are sensitive and accurate, but are delicate and not very popular in industrial applications. They use interference fringes produced by optical flats to measure strain. Optical sensors operate best under laboratory conditions.
+          <strong>The photoelectric gauge</strong> uses a light beam, two fine gratings, and a photocell detector to generate an electrical current that is proportional to strain. The gage length of these devices can be as short as 1/16 inch, but they are costly and delicate.
+          <strong>Semiconductor strain gauges:</strong> For measurements of small strain, semiconductor strain gauges, so called piezoresistors, are often preferred over foil gauges. Semiconductor strain gauges depend on the piezoresistive effects of silicon or germanium and measure the change in resistance with stress as opposed to strain. The semiconductor bonded strain gauge is a wafer with the resistance element diffused into a substrate of silicon. The wafer element usually is not provided with a backing, and bonding it to the strained surface requires great care as only a thin layer of epoxy is used to attach it. The size is much smaller and the cost much lower than for a metallic foil sensor. The same epoxies that are used to attach foil gages are used to bond semiconductor gages. The advantages are higher unit resistance and sensitivity whereas, greater sensitivity to temperature variations and tendency to drift are disadvantages in comparison to metallic foil sensors. Another disadvantage of semiconductor strain gages is that the resistance-to-strain relationship is nonlinear. With software compensation this can be avoided.</p>
+          <center><img src="images/img5.jpg" title=""></center>
+          
+          <p><strong>Thin-film strain gauge:</strong> These gauges eliminate the need for adhesive bonding. The gauge is produced by first depositing an electrical insulation (typically a ceramic) onto the stressed metal surface, and then depositing the strain gauge onto this insulation layer. Vacuum deposition or sputtering techniques are used to bond the materials molecularly. Because the thin-film gauge is molecularly bonded to the specimen, the installation is much more stable and the resistance values experience less drift. Another advantage is that the stressed force detector can be a metallic diaphragm or beam with a deposited layer of ceramic insulation.</p>
+          <p><strong>Diffused semiconductor strain gauges:</strong> This is a further improvement in strain gage technology as they eliminate the need for bonding agents. By eliminating bonding agents, errors due to creep and hysteresis also are eliminated. The diffused semiconductor strain gage uses photolithography masking techniques and solid-state diffusion of boron to molecularly bond the resistance elements. Electrical leads are directly attached to the pattern.</p>
+          <p>The diffused gauge is limited to moderate-temperature applications and requires temperature compensation.</p>
+          <p>Diffused semiconductors often are used as sensing elements in pressure transducers. They are small, inexpensive, accurate and repeatable, provide a wide pressure range, and generate a strong output signal. Their limitations include sensitivity to ambient temperature variations, which can be compensated for in intelligent transmitter designs.</p>
+          <h3 id="types-of-strain-gauge-based-on-mounting"><strong>Types of strain gauge based on mounting:</strong></h3>
+          <h4 id="bonded-strain-gauge"><strong>Bonded strain gauge:</strong></h4>
+          <p>A bonded strain-gage element, consisting of a metallic wire, etched foil, vacuum-deposited film, or semiconductor bar, is cemented to the strained surface.</p>
+          <center><img src="images/img6.jpg" title=""></center>
+          
+          <h3 id="unbonded-strain-gauge"><strong>Unbonded Strain Gauge:</strong></h3>
+          <p>The unbonded strain gage consists of a wire stretched between two points in an insulating medium such as air. One end of the wire is fixed and the other end is attached to a movable element.</p>
+          <center><img src="images/img7.jpg" title=""></center>
+          
+          <h3 id="strain-gauge-selection-criteria"><strong>Strain gauge selection criteria:</strong></h3>
+          <ul>
+          <li>Gauge Length</li>
+          <li>Number of Gauges in Gauge Pattern</li>
+          <li>Arrangement of Gauges in Gauge Pattern</li>
+          <li>Grid Resistance</li>
+          <li>Mass</li>
+          <li>Stability</li>
+          <li>Temperature sensitivity</li>
+          <li>Carrier Material</li>
+          <li>Gauge Width</li>
+          <li>Availability</li>
+          <li>Low cost</li>
+          <li>Effect of ambient conditions</li>
+          </ul>
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>

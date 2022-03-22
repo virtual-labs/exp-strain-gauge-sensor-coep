@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The ratio of stress upon strain is",
+      "answers": {
+        "a": "Poisson's ratio",
+        "b": "Modulus of elasticity",
+        "c": "Modulus of stiffness",
+		"d": "None of these"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Young's Modulus describes the _____ of the material",
+      "answers": {
+        "a": "Roughness",
+        "b": "Stiffness",
+        "c": "Ruggedness",
+		"d": "None of these"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Stress can be defined as",
+      "answers": {
+        "a": "forces acting externally on the object",
+        "b": "deformation caused by acting forces",
+        "c": "Objects internal resisting force",
+		"d": "All of these"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The basic types of stress to which material can be subjected are:",
+      "answers": {
+        "a": "Compression, shear, tensile",
+        "b": "Compression, shear, hardness",
+        "c": "Tensile, hardness, strain",
+		"d": "None of these"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The weighing balance works on the principle of comparing",
+      "answers": {
+        "a": "forces",
+        "b": "moments",
+        "c": "acceleration",
+		"d": "None of these"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
