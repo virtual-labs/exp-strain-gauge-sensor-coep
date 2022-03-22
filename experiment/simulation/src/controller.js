@@ -1240,12 +1240,14 @@ STRAIN.controller = (function() {
 		setConfiguration();
 	}//obj.configChange
 	setConfiguration = function() {
-		config = measurementModel.get('configuration');
+		
+		config1 = measurementModel.get('configuration');
+	
 		if(bridge != undefined) {
 			bridge.remove();
 			anim.remove();
 		}
-		switch(config) {
+		switch(config1) {
 			
 			case 'Quarter Bridge':
 				rText1.show();
@@ -1267,7 +1269,8 @@ STRAIN.controller = (function() {
 				});
 				anim = paper.set();
 				anim.push(a);
-				config=null;
+				config1=null;
+				config = null;
 				break;
 			case 'Half Bridge Adjacent Arms':
 				rText1.hide();
@@ -1352,6 +1355,7 @@ STRAIN.controller = (function() {
 					stroke : color
 				});
 				config=null;
+				config1 = null;
 				break;
 			}//switch
 	}//setConfiguration
@@ -1546,7 +1550,7 @@ STRAIN.controller = (function() {
 	calculateOutputVoltage = function() {
 		inputVoltage = measurementModel.get('inputVoltage');
 		gaugeFactor = measurementModel.get('gaugeFactor');
-		 config = measurementModel.get('configuration');
+		var config = measurementModel.get('configuration');
 
 		switch(config) {
 			case 'Quarter Bridge':
