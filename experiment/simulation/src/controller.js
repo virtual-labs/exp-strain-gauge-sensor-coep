@@ -1546,7 +1546,7 @@ STRAIN.controller = (function() {
 	calculateOutputVoltage = function() {
 		inputVoltage = measurementModel.get('inputVoltage');
 		gaugeFactor = measurementModel.get('gaugeFactor');
-		var config = measurementModel.get('configuration');
+		 config = measurementModel.get('configuration');
 
 		switch(config) {
 			case 'Quarter Bridge':
